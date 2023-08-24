@@ -1,0 +1,39 @@
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+}
+
+.socials {
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.socials>h3 {
+    margin-bottom: 1rem;
+    text-shadow: 3px 3px var(--font-color1);
+}
+
+.value {
+    margin-left: 1rem;
+    color: white;
+}
+
+.socials .key {
+    margin-left: 2.5rem;
+    color: var(--font-color1)
+}
+
+
+@media (max-width: 480px) {
+    .contact {
+        padding-top: 6rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

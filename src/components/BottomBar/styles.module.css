@@ -1,0 +1,37 @@
+.BottomBar {
+    height: 20px;
+    padding: 0 .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bottombar-bg);
+    border-top: 1px solid var(--bottombar-border);
+    color: rgb(225, 228, 232);
+    font-family: Source Sans Pro, sans-serif;
+    font-size: .85rem;
+}
+
+.BottomBar div{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.BottomBar span{
+    height: 100%;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.BottomBar span:hover{
+    background: var(--bottombar-item-hover);
+}
+
+@media (max-width: 480px) {
+    .BottomBar{
+        display: none;
+    }
+  }

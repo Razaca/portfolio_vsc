@@ -1,0 +1,30 @@
+.CardProject{
+    padding: 1rem;
+    width: 250px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CardProject h3{
+    margin-top: 1rem;
+}
+
+.contButtons{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+}
+
+.button{
+    padding: .5rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+}

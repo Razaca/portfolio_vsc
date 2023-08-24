@@ -1,0 +1,45 @@
+:root {
+  --primary-color: rgb(0, 122, 204);
+  --main-bg: rgb(30, 30, 30);
+  --topbar-bg: rgb(60, 60, 60);
+  --topbar-color: rgb(191, 191, 191);
+  --topbar-item-hover: rgb(70, 70, 70);
+  --sidebar-icon-bg: rgb(51, 51, 51);
+  --sidebar-files-bg: rgb(37, 37, 38);
+  --sidebar-file-select: rgb(55, 55, 61);
+  --sidebar-icon-color: rgb(133, 133, 133);
+  --sidebar-icon-hover: #fff;
+  --explorer-bg: rgb(37, 37, 38);
+  --explorer-file-bg: rgb(51, 51, 51);
+  --explorer-active-bg: rgb(30, 30, 30);
+  --bottombar-bg: rgb(0, 122, 204);
+  --bottombar-border: rgb(0, 122, 204);
+  --bottombar-item-hover: rgba(189, 189, 189, 0.282);
+  --font-color1: rgb(0, 122, 204);
+  --font-color2: rgb(119, 122, 125);
+  --font-color3: rgb(218, 171, 0);
+  --font-color4: rgb(189, 27, 191);
+}
+
+[data-theme='red'] {
+  --primary-color: rgb(119, 0, 0);
+  --main-bg: rgb(57, 0, 0);
+  --topbar-bg: rgb(119, 0, 0);
+  --topbar-color: rgb(191, 191, 191);
+  --topbar-item-hover: rgb(70, 70, 70);
+  --sidebar-icon-bg: rgb(88, 0, 0);
+  --sidebar-files-bg: rgb(51, 0, 0);
+  --sidebar-file-select: rgb(55, 55, 61);
+  --sidebar-icon-color: rgb(133, 133, 133);
+  --sidebar-icon-hover: #fff;
+  --explorer-bg: rgb(51, 0, 0);
+  --explorer-file-bg: rgb(51, 0, 0);
+  --explorer-active-bg: rgb(73, 0, 0);
+  --bottombar-bg: rgb(119, 0, 0);
+  --bottombar-border: rgb(35, 35, 35);
+  --bottombar-item-hover: rgba(189, 189, 189, 0.282);
+  --font-color1: rgb(119, 0, 0);
+  --font-color2: rgb(196, 117, 44);
+  --font-color3: rgb(218, 171, 0);
+  --font-color4: rgb(60, 53, 199);
+}
