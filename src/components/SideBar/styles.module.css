@@ -59,8 +59,30 @@
     gap: 5px;
 }
 
+.bubble {
+    position: absolute;
+    padding: .5rem;
+    transform-origin: 0% 0%;
+    transform: translate(10px,0);
+    background-color: var(--sidebar-icon-bg);
+    color: whitesmoke;
+    border: 3px solid var(--primary-color);
+    border-radius: 5px;
+    display: none;
+}
+
+.icon{
+    position: relative;
+}
+.icon:hover .bubble{
+    display: inline;
+}
+
 @media (max-width: 480px) {
-    .items{
+    .items {
         display: none;
     }
-  }
+    .icon:hover .bubble{
+        display: none;
+    }
+}

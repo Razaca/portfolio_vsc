@@ -44,32 +44,40 @@ const SideBar = () => {
   return (
     <div className={styles.SideBar}>
       <div className={styles.icons}>
-        <div>
-          <Link href={"/"}>
+        <div >
+          <Link href={"/"} className={styles.icon}>
             <VscFiles size={30} />
+            <span className={styles.bubble}>home</span>
           </Link>
-          <Link href={"/projects"}>
+          <Link href={"/projects"} className={styles.icon}>
             <VscSearch size={30} />
+            <span className={styles.bubble}>projects</span>
           </Link>
-          <Link href={"https://github.com/Razaca"} target={"_blank"}>
+          <Link href={"https://github.com/Razaca"} target={"_blank"} className={styles.icon}>
             <VscGithubAlt size={30} />
+            <span className={styles.bubble}>github</span>
           </Link>
           <Link
             href={"https://www.linkedin.com/in/renzo-cervantes/"}
             target={"_blank"}
+            className={styles.icon}
           >
             <SlSocialLinkedin size={30} />
+            <span className={styles.bubble}>linkedin</span>
           </Link>
-          <Link href={"/contact"}>
+          <Link href={"/contact"} className={styles.icon}>
             <VscMail size={30} />
+            <span className={styles.bubble}>contact</span>
           </Link>
         </div>
         <div>
-          <Link href={"/about"}>
+          <Link href={"/about"} className={styles.icon}>
             <VscAccount size={30} />
+            <span className={styles.bubble}>about</span>
           </Link>
-          <Link href={"/settings"}>
+          <Link href={"/settings"} className={styles.icon}>
             <VscSettingsGear size={30} />
+            <span className={styles.bubble}>setting</span>
           </Link>
         </div>
       </div>
